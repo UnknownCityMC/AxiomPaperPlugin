@@ -94,6 +94,9 @@ tasks {
     shadowJar {
         // helper function to relocate a package into our package
         fun reloc(pkg: String) = relocate(pkg, "com.moulberry.axiom.dependency.$pkg")
-        reloc("xyz.jpenilla:reflection-remapper")
+        reloc("xyz.jpenilla")
+        reloc("org.incendo")
+        reloc("io.leangen")
+        reloc("net.fabricmc")
     }
 }
