@@ -20,7 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.network.RegistryFriendlyByteBuf;
 import net.minecraft.network.Utf8String;
 import net.minecraft.network.VarInt;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.server.level.ServerPlayer;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.Nullable;
